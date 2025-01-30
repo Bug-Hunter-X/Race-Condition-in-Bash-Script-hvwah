@@ -1,0 +1,3 @@
+This repository contains a bash script that demonstrates a race condition bug. The script uses multiple processes to increment a counter stored in a file. Due to the lack of proper synchronization, the final counter value may not be the expected value of 10.
+
+The bug is demonstrated in `bug.sh`, and a solution is proposed in `bugSolution.sh`.  This example illustrates a common concurrency issue in shell scripting where race conditions can lead to inconsistent results and data corruption if not handled carefully.
